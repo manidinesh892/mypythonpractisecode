@@ -10,3 +10,10 @@ def fibonacci(n):
 x=fibonacci(9)
 print(x)
 #done
+while True:
+    text=input("message")
+    if(text[0]=='#'):
+        continue
+    if(text=="done"):
+        break
+    print(text)
