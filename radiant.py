@@ -8,4 +8,4 @@ while True:
     x1=randint(20000,20001)
     print(x1)
     if(x1==20000):
-        break
+        continue
